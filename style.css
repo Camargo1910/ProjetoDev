@@ -15,12 +15,14 @@ button{
   display: none;
 }
 
+/* Janela visível do carrossel */
 .janela-carrossel {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
   overflow: hidden;
   border: 2px solid #ccc;
-  margin: 20px auto;
-  border-radius: 25px;
+  border-radius: 12px;
 }
 
 .trilha-carrossel {
@@ -28,11 +30,13 @@ button{
   transition: transform 0.5s ease;
 }
 
-.item {
-  min-width: 400px;
-  height: 400px;
-}
 
+/* Cada imagem do carrossel */
+.item {
+  min-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
 .item img {
   width: 400px;
   height: 400px;
