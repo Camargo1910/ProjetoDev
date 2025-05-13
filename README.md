@@ -1,1 +1,2 @@
-Pagina para comemorar um ano de namoro, pagina criada com HTML, CSS E JS.
+Site criado para comemorar um ano de namoro e homenagear minha amada, foi desenvolvido com HTML, CSS e Javascript
+
