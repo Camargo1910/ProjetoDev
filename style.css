@@ -1,14 +1,28 @@
-body{
+body {
   font-size: 20px;
-  background-image: linear-gradient( 65deg, #4682B4, #DDA0DD);
-
-
+  background-image: linear-gradient(65deg, #4682B4, #DDA0DD);
+  color: #ffffff;
 }
 
-button{
-  height: 60px;
-  width: 100px;
+button {
+  height: 100px;
+  width: 250px;
   font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, #DDA0DD, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  cursor:pointer
 }
 
 .oculto {
@@ -36,29 +50,29 @@ button{
   height: auto;
   flex-shrink: 0;
 }
+
 .item img {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  
 }
 
 #btn-conteudo {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* altura total da tela */
-  
+  height: 100vh;
+  /* altura total da tela */
 }
 
-#contador{
+#contador {
   text-align: center;
   font-size: 1.35rem;
+  color: #ffffff;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 2rem;
-
+  color: #ffffff;
 }
-
