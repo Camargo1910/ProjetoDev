@@ -66,7 +66,7 @@ function dispararConfete() {
   })();
 }
 
-const dataInicial = new Date(2024, 4, 25, 0, 0, 0); // 25 de maior de 2024, meia-noite
+const dataInicial = new Date(2024, 4, 25, 0, 0, 0); // 25 de maio de 2024, meia-noite
 
 function atualizarContador() {
   const agora = new Date();
